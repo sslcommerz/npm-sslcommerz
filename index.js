@@ -1,11 +1,9 @@
-const SSLCzData = require("./SSLCzData");
-const PublicSslCommerzPayment = require("./PublicSslCommerzPayment");
+const SslCommerzPayment = require("./api/payment-controller");
 
-class SSLCommerzPayment extends PublicSslCommerzPayment {
-    constructor(data, live) {
-        const newdata = new SSLCzData(data);
-        super(newdata.getPaymentArray(), live);
+class SSLCommerzPayment extends SslCommerzPayment {
+    constructor(store_id, store_password, live = false) {
+        super(store_id, store_password, live);
     }
 }
 
-module.exports=SSLCommerzPayment;
+module.exports = SSLCommerzPayment;
