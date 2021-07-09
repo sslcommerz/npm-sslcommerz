@@ -1,24 +1,25 @@
 {
-  "name": "sslcommerz",
-  "version": "1.6.7",
+  "name": "sslcommerz-lts",
+  "description": "LTS package, Officially supported by SSLCommerz Integration Team.",
+  "version": "1.0.1",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ranasl62/npm-sslcommerz.git"
+    "url": "git+https://github.com/sslcommerz/SSLCommerz-NodeJS.git"
   },
   "keywords": [],
-  "author": "Md. Rana Hossain",
+  "author": "SSLCommerz Integration Team",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/ranasl62/npm-sslcommerz/issues"
+    "email" : "integration@sslcommerz.com"
   },
-  "homepage": "https://github.com/ranasl62/npm-sslcommerz#readme",
+  "homepage": "https://github.com/sslcommerz/SSLCommerz-NodeJS.git#readme",
   "description": "",
   "dependencies": {
-    "form-data": "^2.5.0",
-    "node-fetch": "^2.6.1"
+    "form-data": "2.5.0",
+    "node-fetch": "2.6.1"
   }
 }

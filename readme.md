@@ -1,9 +1,11 @@
 # SSLCommerz - Node.js Library
 
+LTS package, Officially supported by SSLCommerz Integration Team.
+
 ## Installation
 
 ```bash
-npm i sslcommerz@1.6.7
+npm i sslcommerz-lts
 
 ```
 
@@ -15,7 +17,7 @@ npm i sslcommerz@1.6.7
 const express = require('express')
 const app = express()
 
-const SSLCommerzPayment = require('sslcommerz')
+const SSLCommerzPayment = require('sslcommerz-lts')
 const store_id = '<your_store_id>'
 const store_passwd = '<your_store_password>'
 const is_live = false //true for live, false for sandbox
