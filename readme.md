@@ -1,4 +1,4 @@
-# SSLCommerz - Node.js Library
+# [SSLCommerz - Node.js Library](https://www.npmjs.com/package/sslcommerz-lts)
 
 LTS package, Officially supported by SSLCommerz Integration Team.
 
