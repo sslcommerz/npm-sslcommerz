@@ -24,35 +24,35 @@ class SslCommerzPayment {
 
     validate(data, url = false, method = "GET") {
         return httpCall({
-            url: url || this.validationURL + `val_id=${data.val_id}&store_id=${this.store_id}&store_passwd=${this.store_password}&v=1&format=json`,
+            url: url || this.validationURL + `val_id=${data.val_id}&store_id=${this.store_id}&store_passwd=${this.store_passwd}&v=1&format=json`,
             method: method || "GET"
         });
     }
 
     initiateRefund(data, url = false, method = "GET") {
         return httpCall({
-            url: url || this.refundURL + `refund_amount=${data.refund_amount}&refund_remarks=${data.refund_remarks}&bank_tran_id=${data.bank_tran_id}&refe_id=${data.refe_id}&store_id=${this.store_id}&store_passwd=${this.store_password}&v=1&format=json`,
+            url: url || this.refundURL + `refund_amount=${data.refund_amount}&refund_remarks=${data.refund_remarks}&bank_tran_id=${data.bank_tran_id}&refe_id=${data.refe_id}&store_id=${this.store_id}&store_passwd=${this.store_passwd}&v=1&format=json`,
             method: method || "GET"
         });
     }
 
     refundQuery(data, url = false, method = "GET") {
         return httpCall({
-            url: url || this.refundQueryURL + `refund_ref_id=${data.refund_ref_id}&store_id=${this.store_id}&store_passwd=${this.store_password}&v=1&format=json`,
+            url: url || this.refundQueryURL + `refund_ref_id=${data.refund_ref_id}&store_id=${this.store_id}&store_passwd=${this.store_passwd}&v=1&format=json`,
             method: method || "GET"
         });
     }
 
     transactionQueryBySessionId(data, url = false, method = "GET") {
         return httpCall({
-            url: url || this.transactionQueryBySessionIdURL + `sessionkey=${data.sessionkey}&store_id=${this.store_id}&store_passwd=${this.store_password}&v=1&format=json`,
+            url: url || this.transactionQueryBySessionIdURL + `sessionkey=${data.sessionkey}&store_id=${this.store_id}&store_passwd=${this.store_passwd}&v=1&format=json`,
             method: method || "GET"
         });
     }
 
     transactionQueryByTransactionId(data, url = false, method = "GET") {
         return httpCall({
-            url: url || this.transactionQueryByTransactionIdURL + `tran_id=${data.tran_id}&store_id=${this.store_id}&store_passwd=${this.store_password}&v=1&format=json`,
+            url: url || this.transactionQueryByTransactionIdURL + `tran_id=${data.tran_id}&store_id=${this.store_id}&store_passwd=${this.store_passwd}&v=1&format=json`,
             method: method || "GET"
         });
     }
