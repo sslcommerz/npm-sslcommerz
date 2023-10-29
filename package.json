@@ -1,5 +1,5 @@
 {
-  "name": "sslcommerz-lts",
+  "name": "sslcommerz-lts-webmanza",
   "description": "",
   "version": "1.1.0",
   "main": "index.js",
@@ -8,15 +8,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/sslcommerz/SSLCommerz-NodeJS.git"
+    "url": "git+https://github.com/Kanon11/SSLCommerz-NodeJS.git"
   },
   "keywords": [],
-  "author": "SSLCommerz Integration Team",
+  "author": "Kanon",
   "license": "ISC",
   "bugs": {
-    "email": "integration@sslcommerz.com"
+    "email": "kanoncuetcse11@gmail.com"
   },
-  "homepage": "https://github.com/sslcommerz/SSLCommerz-NodeJS.git#readme",
+  "homepage": "https://github.com/Kanon11/SSLCommerz-NodeJS.git#readme",
   "dependencies": {
     "form-data": "^4.0.0",
     "node-fetch": "^3.3.2"
